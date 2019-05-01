@@ -1,0 +1,129 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+.header
+{
+  background: url(back.jpg);
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+}
+.main-nav
+{
+  float: right;
+  list-style:none;
+  margin-top:30px;
+}
+
+.main-nav li
+{
+  display:inline-block;
+
+}
+
+.main-nav li a
+{
+  color: white;
+  text-decoration:none;
+  padding: 5px 40px;
+  font-family:"Algerian",sans-serif;
+  font-size: 15px;
+  font-style:oblique;
+
+}
+
+.main-nav li.active a
+{
+  border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+
+.logo img
+{
+  width:70px;
+  height:auto;
+  float:left;
+}
+
+body
+{
+  font-family: monospace;
+}
+
+.row
+{
+  max-width: 1200px;
+  margin:auto;
+}
+
+.slogan
+{
+  position: absolute;
+  width: 1200px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+h1
+{
+  color: #5ADFF2F;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 275px;
+  margin-left: auto;
+  font-weight: bold;
+}
+p
+{
+  color: #000000;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 350px;
+  margin-left: auto;
+  font-family: "Algerian","cursive";
+
+}
+
+.button
+{
+  margin-top: 10px;
+  margin-left: 300px;
+}
+.btn
+{
+  font-size: 20px;
+  border: 1px solid black;
+  padding:10px 30px;
+  color:black;
+  text-decoration: none;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.btn-one
+{
+
+  font-family: "Roboto","normal";
+}
+.btn-one:hover
+{
+  background-color:#b5651d;
+  transition: all 0.5s ease-in;
+  }
+.btn-two
+{
+  font-family: "Roboto","normal";
+}
+.btn-two:hover
+{
+  background-color:#b5651d;
+  transition: all 0.2s ease-in;
+  }
